@@ -169,18 +169,9 @@ psql yourdb -c "\COPY (SELECT * FROM monthly_spend_summary) TO 'results/monthly_
 
 ## 💡 Findings
 
-* Spending peaks during the holidays (November–December).
+* Spending peaks during the holidays.
 * **Groceries** and **utilities** dominate expense categories.
 * 5–10% of accounts exhibit high-frequency small withdrawals—possible fraud patterns.
 * Customer segments vary from low-activity (avg < 5 txns/month) to highly active (> 50 txns/month).
-
----
-
-## 🛠️ Future Enhancements
-
-* Integrate ML-based anomaly scoring for fraud detection.
-* Build a dashboard using BI tools (e.g., Tableau, PowerBI).
-* Extend schema to include customer demographics and loan data.
-* Automate ETL pipeline for continuous data ingestion.
 
 ---
